@@ -11,7 +11,7 @@ services:
     volumes:
         - "/mnt/user/appdata/graphite/data/storage/:/opt/graphite/storage/"
     environment:
-        - HOST_IP=10.0.0.226
+        - HOST_IP=10.0.0.241
         - HOST=GamingBeast
         - HOST_PORT=82
         - AFTERBURNER_PASSWORD=17cc95b4017d496f82
